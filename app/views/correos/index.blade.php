@@ -13,7 +13,7 @@
 	
 @section('btn-area')
       <div class="valign-wrapper cyan-text text-darken-1 font2">
-         <a class="btn-floating btn-large waves-effect waves-light cyan" onclick="redactarCorreo();"><i class="mdi-content-add"></i></a>
+         <a href="javascript:void(0);" class="btn-floating btn-large waves-effect waves-light cyan" onclick="redactarCorreo();"><i class="mdi-content-add"></i></a>
          <span class="valign">&nbsp;Redactar correo</span>
       </div>
 @stop
